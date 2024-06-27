@@ -156,7 +156,7 @@ function hfun_julia_editions()
     end
 
     for (i, (prefix, eventconfig)) in enumerate(local_events)
-        site_url = replace(eventconfig["site_url"], "https://juliacon.org" => "")
+        site_url = replace(eventconfig["site_url"], "https://giordano.github.io/www.juliacon.org" => "")
         location = eventconfig["location"]
         year_info = current_year_is_latest ? " ($(eventconfig["year"]))" : ""
         write(io_local, """<a href="$site_url">$location</a>$year_info""")
@@ -198,8 +198,8 @@ hfun_main_heading_color() = get_from_config("main_heading_color"; default = "bla
 hfun_navbar_color() = get_from_config("header_color"; default = "#389826")
 hfun_site_name() = get_from_config("site_name"; default = "JuliaCon")
 hfun_site_descr() = get_from_config("site_descr"; default = "JuliaCon")
-hfun_site_url() = get_from_config("site_url"; default = "https://juliacon.org/")
-hfun_site_thumbnail() = get_from_config("site_thumbnail"; default = "https://juliacon.org/assets/shared/img/JuliaConGitHubPreview.png")
+hfun_site_url() = get_from_config("site_url"; default = "https://giordano.github.io/www.juliacon.org/")
+hfun_site_thumbnail() = get_from_config("site_thumbnail"; default = "https://giordano.github.io/www.juliacon.org/assets/shared/img/JuliaConGitHubPreview.png")
 
 navbar_entry(io, entry::Pair) = navbar_entry(io, entry[1], entry[2])
 

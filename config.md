@@ -2,7 +2,7 @@
 author = "JuliaCon"
 
 prepath = get(ENV, "PREVIEW_FRANKLIN_PREPATH", "")
-website_url = get(ENV, "PREVIEW_FRANKLIN_WEBSITE_URL", "juliacon.org")
+website_url = get(ENV, "PREVIEW_FRANKLIN_WEBSITE_URL", "giordano.github.io/www.juliacon.org")
 
 # Current year
 year = "2024"
@@ -34,7 +34,7 @@ configuration = Dict(
         "alert" => """<a href="https://www.youtube.com/playlist?list=PLP8iPy9hna6Tl2UHTrm4jnIYrLkIcAROR">Check out the JuliaCon 2020 videos</a>""",
         "site_name" => "JuliaCon 2020",
         "site_descr" => "JuliaCon 2020",
-        "site_url" => "https://juliacon.org/2020/",
+        "site_url" => "https://giordano.github.io/www.juliacon.org/2020/",
         "main_heading_color" => "#4366d0",
         "header_color" => "#9558b2",
         "header" => [
@@ -54,7 +54,7 @@ configuration = Dict(
         "alert" => """<a href="https://www.youtube.com/playlist?list=PLP8iPy9hna6Q343_8sSq4f306VGLW4TLK">Check out the JuliaCon 2021 videos</a> | <a href="/2021/prize/">Community Prize</a>""",
         "site_name" => "JuliaCon 2021",
         "site_descr" => "JuliaCon 2021",
-        "site_url" => "https://juliacon.org/2021/",
+        "site_url" => "https://giordano.github.io/www.juliacon.org/2021/",
         "main_heading_color" => "black",
         "header_color" => "#389826",
         "header" => [
@@ -74,7 +74,7 @@ configuration = Dict(
         "alert" => """<a href="https://www.youtube.com/playlist?list=PLP8iPy9hna6TRg6qJaBLJ-FRMi9Cp7gSX">Check out the JuliaCon 2022 videos</a>""",
         "site_name" => "JuliaCon 2022",
         "site_descr" => "JuliaCon 2022",
-        "site_url" => "https://juliacon.org/2022/",
+        "site_url" => "https://giordano.github.io/www.juliacon.org/2022/",
         "main_heading_color" => "black",
         "header_color" => "#389826",
         "header" => [
@@ -93,7 +93,7 @@ configuration = Dict(
         "alert" => """<a href="https://www.youtube.com/playlist?list=PLP8iPy9hna6T7PRe2sucSonFsrrH-oEZC">Check out the JuliaCon 2023 videos</a>""",
         "site_name" => "JuliaCon 2023",
         "site_descr" => "JuliaCon 2023, MIT, Cambridge",
-        "site_url" => "https://juliacon.org/2023/",
+        "site_url" => "https://giordano.github.io/www.juliacon.org/2023/",
         "main_heading_color" => "black",
         "header_color" => "#389826",
         "header" => [
@@ -119,8 +119,8 @@ configuration = Dict(
         "alert" => """<a href="https://www.youtube.com/playlist?list=PLP8iPy9hna6Tp3QV4akXAd23_O5Vjm_e2">Check out the JuliaCon Local Eindhoven 2023 videos!</a>""",
         "site_name" => "JuliaCon Local Eindhoven 2023",
         "site_descr" => "JuliaCon Local Eindhoven 2023, Eindhoven, High Tech Campus",
-        "site_url" => "https://juliacon.org/local/eindhoven2023/",
-        "site_thumbnail" => "https://juliacon.org/assets/local/eindhoven2023/img/juliacon_local_eindhoven_logo.png",
+        "site_url" => "https://giordano.github.io/www.juliacon.org/local/eindhoven2023/",
+        "site_thumbnail" => "https://giordano.github.io/www.juliacon.org/assets/local/eindhoven2023/img/juliacon_local_eindhoven_logo.png",
         "main_heading_color" => "3857bd",
         "header_color" => "#389826",
         "header" => Dict(
@@ -142,7 +142,7 @@ configuration = Dict(
         """,
         "site_name" => "JuliaCon 2024",
         "site_descr" => "JuliaCon 2024, Eindhoven, Philips Stadion",
-        "site_url" => "https://juliacon.org/2024/",
+        "site_url" => "https://giordano.github.io/www.juliacon.org/2024/",
         "main_heading_color" => "black",
         "header_color" => "#389826",
         "header" => [

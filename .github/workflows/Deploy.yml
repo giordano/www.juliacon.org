@@ -1,12 +1,12 @@
 name: Build and Deploy
 
-on:
-  push:
-    branches:
-      - franklin
-  pull_request:
-    branches:
-      - franklin
+# on:
+#   push:
+#     branches:
+#       - franklin
+#   pull_request:
+#     branches:
+#       - franklin
 
 # Ensure that only one workflow which pushes to the `main` branch is running at a time.
 # Note: this is the same concurrency group as the `cleanup.yml` workflow.

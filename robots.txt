@@ -1,4 +1,4 @@
-Sitemap: juliacon.org/sitemap.xml
+Sitemap: giordano.github.io/www.juliacon.org/sitemap.xml
 
 User-agent: *
 Disallow:
